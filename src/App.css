@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(197, 197, 197);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  overflow-x: hidden;
+}
+/* Budget */
+.budget {
+  display: flex;
+  justify-content: center;
+}
+.balance,
+.income,
+.expence {
+  border-radius: 35px;
+  background: #c5c5c5;
+  box-shadow: 11px 11px 37px #949494, -11px -11px 37px #f6f6f6;
+  padding: 10px;
+  margin-left: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.income {
+  background-color: rgba(0, 179, 0, 0.465);
+}
+.expence {
+  background-color: rgba(179, 0, 0, 0.465);
+}
+.budget-amount {
+  font-size: 23px;
+}
+
+/* ListTransaction & AddTransaction */
+.listTransaction h3,
+.addTransaction h3, .editTransaction h3 {
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.addTransaction .error-txt, .editTransaction .error-txt {
+  margin-left: 12%;
+  width: 75%;
+  border-radius: 10px;
+  background-color: orangered;
+  color: #fff;
+  padding: 10px;
+}
+.fa-exclamation{
+float: right;
+padding: 5px;
+}
+.transaction-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 35px;
+  background: #c5c5c5;
+  box-shadow: 11px 11px 37px #949494, -11px -11px 37px #f6f6f6;
+  font-size: 23px;
+}
+.plus-transaction {
+  border-left: 10px solid rgb(5, 143, 0);
+  border-right: 10px solid rgb(5, 143, 0);
+}
+.minus-transaction {
+  border-left: 10px solid red;
+  border-right: 10px solid red;
+}
+.transaction-item p {
+  padding-top: 10px;
+}
+.transaction-icons{
+  padding-top: 10px;
+}
+.transaction-icons i{
+  padding-right: 12px;
+  cursor: pointer;
+}
+.fa-trash:hover{
+  color: rgb(156, 0, 0);
+}
+.fa-edit:hover{
+  color: rgb(11, 86, 184);
+}
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.transaction-form input {
+  margin: 8px 0;
+  width: 80%;
+  height: 50px;
+  border-radius: 36px;
+  background: #c5c5c5;
+  box-shadow: inset 11px 11px 37px #949494, inset -11px -11px 37px #f6f6f6;
+  outline: none;
+  border: none;
+}
+
+.transaction-form input:enabled {
+  padding-left: 20px;
+}
+.transaction-form button {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 36px;
+  color: #fff;
+  background: rgb(38, 88, 255);
+  outline: none;
+  border: none;
+}
+.transaction-form button:hover {
+  background: rgb(48, 87, 214);
+}
+
+.cancel-btn {
+  background-color: #727272!important;
+}
+.cancel-btn:hover {
+  background-color: #7e7e7e!important;
+}
