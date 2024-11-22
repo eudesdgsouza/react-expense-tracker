@@ -2,6 +2,9 @@
 
 Um aplicativo de rastreamento de despesas desenvolvido com **React** e integrado ao **Firebase** para autenticação e banco de dados em tempo real.  
 
+# Deploy
+- [Live] (https://react-expense-tracker-ivory.vercel.app/)
+
 ## 🚀 Funcionalidades  
 
 - **Autenticação de Usuário**: Cadastro e login utilizando Firebase Authentication.  
